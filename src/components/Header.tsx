@@ -24,7 +24,7 @@ export function Header() {
           </a>
         ))}
       </nav>
-      <a className="header-cta" href="https://discord.gg/replace-this">
+      <a className="header-cta" href="https://discord.gg/ladpraobross">
         <MessageCircle size={18} aria-hidden="true" />
         <span>Discord</span>
       </a>
