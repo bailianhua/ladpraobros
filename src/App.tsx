@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Games } from "./components/Games";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { LinksPanel } from "./components/LinksPanel";
@@ -13,6 +14,7 @@ export default function App() {
         <Hero />
         <StatsBar />
         <Portfolio />
+        <Games />
         <LinksPanel />
         <About />
       </main>

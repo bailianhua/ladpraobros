@@ -3,6 +3,7 @@ import { publicAsset } from "../utils/assets";
 
 const navItems = [
   { label: "Gallery", href: "#portfolio" },
+  { label: "Games", href: "#games" },
   { label: "Links", href: "#links" },
   { label: "About", href: "#about" },
 ];
