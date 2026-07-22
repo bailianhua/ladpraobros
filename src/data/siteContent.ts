@@ -38,7 +38,7 @@ export type GameEntry = {
 export const guildLinks: GuildLink[] = [
   {
     label: "Join Discord",
-    href: "https://discord.gg/replace-this",
+    href: "https://discord.gg/ladpraobross",
     description: "Main voice, announcements, and party finder.",
     icon: MessageCircle,
   },

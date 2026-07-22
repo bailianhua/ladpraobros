@@ -368,7 +368,8 @@ img {
 }
 
 .portfolio-card,
-.link-card {
+.link-card,
+.game-card {
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: #18191b;
 }
@@ -515,6 +516,66 @@ img {
   font-size: 0.86rem;
 }
 
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.game-card {
+  position: relative;
+  overflow: hidden;
+  animation: portfolio-card-enter 380ms ease-out;
+}
+
+.game-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.game-card-body {
+  padding: 1.2rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.game-card-body h3 {
+  margin: 0;
+  color: #fff8e8;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.game-card-body p {
+  margin: 0;
+  color: rgba(255, 250, 240, 0.68);
+}
+
+.game-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+  margin: 0;
+}
+
+.game-meta dt {
+  margin: 0;
+  color: rgba(255, 250, 240, 0.52);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.game-meta dd {
+  margin: 0.2rem 0 0;
+  color: #fff8e8;
+  font-weight: 600;
+}
+
 .about-section {
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(18rem, 1fr);
@@ -562,6 +623,7 @@ img {
 
   .stats-grid,
   .link-grid,
+  .game-grid,
   .section-heading,
   .about-section {
     grid-template-columns: 1fr;
